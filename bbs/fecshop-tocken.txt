@@ -1,0 +1,1 @@
+composer config --global --auth github-oauth.github.com bd37bfdeacd246bbf3b07f647bd57af8626dfdbc
