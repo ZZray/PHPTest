@@ -7,10 +7,10 @@
 return array(
 	// 数据库配置信息
 	'db'=> array(
-		'host'	=>'localhost',
+		'host'	=>'43.226.35.176',
 		'port'	=>'3306',
-		'user'	=>'root',
-		'pass'	=>'zhouyang',
+		'user'	=>'bbs',
+		'pass'	=>'bbs',
 		'charset'=>'utf8',
 		'dbname'=>'bbs'
 	),

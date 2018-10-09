@@ -9,9 +9,8 @@ header("Content-type:text/html;charset=utf-8");
 
 // 2, 定义目录常量
 // 定义根目录常量
-$tmpPath = str_replace('\\', '/', __DIR__);
-$tmpPath = substr($tmpPath, 0, 40);
-define("DIR_ROOT", $tmpPath.'/');
+// $tmpPath = str_replace('\\', '/', __DIR__);
+define("DIR_ROOT", __DIR__.'/');
 // 定义配置文件目录常量
 define("DIR_CONFIG", DIR_ROOT . 'config/');
 // 定义核心文件目录常量
@@ -21,7 +20,7 @@ define("DIR_MODEL", DIR_ROOT . 'model/');
 // 定义模板文件目录常量
 define("DIR_VIEW", DIR_ROOT . 'view/');
 // 定义公开文件目录常量
-define("DIR_PUBLIC", '/Lesson1/bbs/public'); // 这里的'/'代表根目录
+define("DIR_PUBLIC", '/public'); // 这里的'/'代表根目录
 /*
  * /网站的根目录
  * ./当前
